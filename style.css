@@ -4,8 +4,15 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     font-size: 35px;
-
 }
+
+@media only screen and (max-width: 420px) {
+
+    * { 
+        font-size: 25px;
+    }
+ 
+ }
 
 .header{
     width: 100%;
@@ -55,7 +62,7 @@ nav ul li a:hover{
 
 .text{
     margin-top: 10%;
-    margin-left: 200px;
+    margin-left: 10%;
     font-size: 17px;
     letter-spacing: 1px;
     line-height: 35px;
@@ -64,9 +71,13 @@ nav ul li a:hover{
 
 .text p {
     margin: 15px 0;
+    padding: 15px 5px 15px 0;
     line-height: 35px;
 }
 
+.main-buttons-container a{
+    display: inline-block;
+}
 
 .text a {
     border: 1px solid blue;
